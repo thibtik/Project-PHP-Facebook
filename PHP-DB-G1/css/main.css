@@ -1,0 +1,444 @@
+
+/* form */
+
+.gradient-custom-3 {
+ 
+    background: #84fab0;
+  
+    
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+  
+    
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+  }
+  .gradient-custom-4 {
+
+    background: #84fab0;
+  
+   
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+  
+  
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+  }
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.upload-img i{
+    margin-left: -600px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #acb6f7;
+    /* background: #eeee; */
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+ul li {
+    list-style: none;
+}
+button{
+    padding: 10px;
+    width: 7%;
+    border: none;
+    border-radius: 3px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.buttons button{
+    background:#1a30fa; 
+    color: #000;
+}
+.icons{
+    width: 60%;
+
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.profile{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+
+.add-post{
+    width: 60%;
+    /* height: 120px; */
+    /* ************************************** change color post */
+    background:#ccd4fc;    
+    margin: auto;
+    margin-top: 27px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    margin-top: 7rem;
+    box-shadow: 0px 1px 5px 0  1px #979797;
+}
+.content{
+    font-size: 19px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    resize: none;
+    margin-top: 20px;
+    box-shadow: 0px 1px 5px 0  1px #979797;
+}
+.cirles-profile{
+    display: flex;
+    padding: 6px;
+
+}
+.profile img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.cirles-profile input{
+    border: none;
+    background: none;
+    outline: none;
+
+}
+
+.buttons button{
+    width: 85%;
+    padding: 5px;
+    margin-left: 70px;
+    margin-top: -5px;
+
+}
+.buttons button a{
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* post */
+
+.post{
+    display: flex;
+    justify-content: space-between;
+}
+.post_container{
+    width: 40%;
+    margin: auto;
+    border-radius:8px;
+    background:#ccd4fc;
+    padding: 20px;
+    margin-top: 10vh;
+}
+.post{
+    margin-top: 30px;
+    border-bottom: 1px solid gray;
+}
+.post button{
+    width: 20%;
+    height: 40px;
+    background: rgb(48, 35, 219);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.logo-profile{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.circle-profile-name{
+    display: flex;
+    align-items: center;
+}
+.circle-profile-name img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.circle-profile-name h3{
+    margin-left: 8px;
+}
+.contents .inputarea{
+    width: 100%;
+    height: 13vh;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    resize: none;
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.content input:hover{
+    border-bottom: 1px solid blue;
+}
+
+
+.upload-img{
+    margin-top: 19px;
+    width: 100%;
+    height: 190px;
+    background: white;
+    border-radius: 3px;
+}
+.upload-img i{
+    margin-left: 40vh;
+    margin-top: 12vh;
+    color: green;
+
+}
+
+
+.show-post{
+    margin-top: 25px;
+    height: auto;
+}
+.content-post{
+    margin: 10px;
+}
+.content .input{
+    width: 95%;
+    height: 40px;
+}
+.content-post p{
+    margin-top: -10px;
+    margin-left: 30px;
+}
+.photo-post image{
+    width: 93%;
+    margin: auto;
+}
+.photo-post img{
+    width: 93%;
+    height: 75vh;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.count-like{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cirles-profile p{
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.content input:hover{
+    border-bottom: 1px solid blue;
+}
+
+.like-comment{
+    width: 100%;
+    border-radius: 3px;
+    padding: 7px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.like{
+    text-align: center;
+    border-radius: 7px;
+    padding: 10px;
+    width: 40%;
+    background: #eeee;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+   
+}
+.like a{
+     text-align: center;
+     text-decoration: none;
+    
+} 
+.like a li{
+    border:1px solid ;
+}
+.like .fa-thumbs-o-up{
+    color:#000;
+}
+
+.delete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete_edit{
+    margin:  25px;
+}
+.delete_edit button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(143, 150, 241);
+}
+.fa{
+    color: #000;
+}
+.circle-icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: blue;
+}
+.red{
+    background: red;
+   
+}
+.circle-icon i{
+    color: wheat;
+}
+.delete_edit{
+    display: flex;
+    align-items: center;
+}
+.circle-icon{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*  Comment  */
+
+.comment{
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 7px;
+    width: 40%;
+    background: rgb(235, 234, 234);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.comment a{
+    text-decoration: none;
+    color: #000;
+}
+.comment a i{
+    font-size: 25px;
+    margin: 2px;
+}
+.comment-post{
+    width: 50%;
+    margin: auto;
+    margin-top: 80px;
+    background: #b3bbf0;
+}
+.header-comment{
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #0720ff;
+}
+.range-com{
+    margin-left: 15px;
+    margin-bottom: -10px;
+}
+.icon-circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 30vh;
+}
+.icon-circle i{
+    color: wheat;
+}
+.textarea{
+    width: 85%;
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 8px;
+    height: 20vh;
+    resize: none;
+    outline:none;
+}
+.comment-tage{
+    margin-top: -16px;
+    margin-left: 80px;
+    
+}
+.comment-tage .comment{
+    margin-top: 10px;
+    width: 85%;
+    font-size: 13px;
+    border-radius: 6px;
+    margin-bottom: 40px;
+    background: blue;
+    color: wheat;
+    font-size: 20px;
+}
+
+.display-comment{
+    height: 12vh;
+    margin-left: 50px;
+    border-radius: 8px;
+    background: rgb(247, 237, 237);
+    width: 45%;
+    border: 1px solid blue;
+}
+.countLC{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: #0720ff;
+
+}
+.comment-box{
+    margin-top: 10px;
+}
+.text {
+    margin-top: 5px;
+    margin-left: 70px;
+    font-size:20px;
+} 
+.name{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.name img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.photo p{
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.photo i{
+    margin-left: 1.6vh;
+    margin-top: 7px;
+}
+.post a {
+    font-size: 20px;
+    font-weight: bold;
+}
